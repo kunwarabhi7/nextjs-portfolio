@@ -1,5 +1,6 @@
 import {FaTwitter , FaLinkedin ,FaDiscord }  from 'react-icons/fa'
-
+import Image from 'next/image'
+import Pikachu from '../public/Pikachu.png'
 const HomeScreen = () => {
   return (
     <div className='text-center p-4'>
@@ -10,6 +11,10 @@ const HomeScreen = () => {
 <FaTwitter className='text-blue-600 m-2' size={30} />
 <FaLinkedin className='text-gray-600 m-2' size={30}/>
 <FaDiscord  className='text-red-700 m-2' size={30}/>
+    </div>
+    <div>
+
+    <Image className='bg-gradient-to-b from-cyan-500 to-red-300 rounded-full' src={Pikachu} />
     </div>
     </div>
   )
