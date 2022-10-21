@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import HomeScreen from '../components/HomeScreen'
+import Services from '../components/Services'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
      <NavBar />
      <HomeScreen />
+  <Services />
       </main>
 
     </div>

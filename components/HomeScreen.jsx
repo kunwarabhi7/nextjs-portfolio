@@ -12,7 +12,7 @@ const HomeScreen = () => {
 <FaLinkedin className='text-gray-600 m-2' size={30}/>
 <FaDiscord  className='text-red-700 m-2' size={30}/>
     </div>
-    <div>
+    <div className='mx-auto mt-8'>
 
     <Image className='bg-gradient-to-b from-cyan-500 to-red-300 rounded-full' src={Pikachu} />
     </div>
