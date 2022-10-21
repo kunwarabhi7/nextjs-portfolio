@@ -2,8 +2,9 @@ import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import HomeScreen from '../components/HomeScreen'
 import Services from '../components/Services'
-
+import { useState } from 'react'
 export default function Home() {
+  const[darkmode ,setDarkmode] = useState(false)
   return (
     <div>
       <Head>
@@ -12,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-     <NavBar />
+      <main className={darkmode? 'dark' : ''}>
+     <NavBar darkmode={darkmode} setDarkmode={setDarkmode} />
      <HomeScreen />
   <Services />
       </main>
