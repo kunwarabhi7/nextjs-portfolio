@@ -5,7 +5,7 @@ import Link from 'next/link'
 const NavBar = ({darkmode , setDarkmode}) => {
   return (
     <div className='p-2 dark:bg-gray-900 '>
-        <ul className='flex  justify-between '>
+        <ul className='hidden  md:flex  justify-between '>
             <Link href='/'>
               <li className='w-64 h-20  dark:text-white'>
                 <Image className='cursor-pointer' src={Logo}/>
