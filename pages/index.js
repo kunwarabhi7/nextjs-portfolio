@@ -15,8 +15,8 @@ export default function Home() {
 
       <main className={darkmode? 'dark' : ''}>
      <NavBar darkmode={darkmode} setDarkmode={setDarkmode}  />
-     <HomeScreen />
-  <Services />
+     {/* <HomeScreen />
+  <Services /> */}
       </main>
 
     </div>
