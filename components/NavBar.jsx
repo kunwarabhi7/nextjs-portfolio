@@ -1,13 +1,21 @@
-import {BsGithub, BsLinkedin, BsMoonFill, BsTwitter} from 'react-icons/bs'
-import {SiGmail} from 'react-icons/si'
+import { useState } from 'react'
 import Logo from '../public/assets/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import {BsGithub, BsLinkedin, BsMoonFill, BsTwitter} from 'react-icons/bs'
+import {SiGmail} from 'react-icons/si'
 import {CgMenuGridR} from 'react-icons/cg' 
 import {GiCrossedSwords} from 'react-icons/gi' 
 
 
+
 const NavBar = ({darkmode , setDarkmode}) => {
+  const [sideBar ,setSideBar] = useState(false)
+
+  const handleSideBar = () => {
+    setSideBar(!sideBar)
+  }
+
   return (
     <div className='p-0 md:p-2  dark:bg-gray-900 shadow-lg '>
         <ul className='hidden fixed top-0 left-0 right-0 md:flex  justify-between '>
@@ -46,25 +54,30 @@ const NavBar = ({darkmode , setDarkmode}) => {
             <li className=' cursor-pointer dark:text-white'><BsMoonFill onClick={()=> setDarkmode(!darkmode)} size={30}/></li>
             </div>
         </ul>
+
+        {/* Mobile View */}
         <div className='md:hidden flex justify-between'>
         <Link href='/'>
               <li className='w-48 h-12  dark:text-white'>
                 <Image className='cursor-pointer' src={Logo}/>
               </li>
             </Link>
-        <div className='pt-4 pr-4'>
-<CgMenuGridR className='text-red-500' size={50} />
+        <div className='pt-4 pr-4 flex'>
+        <li className=' cursor-pointer dark:text-white'><BsMoonFill onClick={()=> setDarkmode(!darkmode)} size={30}/></li>
+<CgMenuGridR onClick={handleSideBar} className='text-red-500' size={50} />
         </div>
         </div>
-        <div className='fixed top-0 left-0  w-full h-screen bg-black/70'>
-<div className='fixed top-0 left-0 w-[60%] sm:w-[60%] md:w-[45%] h-screen bg-white dark:bg-gray-900'>
+        {/* OverLay */}
+        <div className={sideBar ? 'md:hidden fixed left-0 top-0 w-full h-full bg-black/70': 'hidden'}>
+
+<div className= {sideBar ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 dark:bg-gray-900' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
 <div>
   <div className='flex justify-between text-black dark:text-white p-4'>
     <Image src={Logo} width='196' height='72' />
-    <GiCrossedSwords  size={40} />
+    <GiCrossedSwords onClick={handleSideBar}  size={40} />
 
   </div>
-  <p className='dark:text-green-300 text-green-800 text-center font-bold text-3xl  sm:p-3  shadow-xl'>Front End Web Dev</p>
+  <p className='dark:text-green-300 text-green-800 text-center font-bold text-xl  sm:p-3 sm:text-3xl  shadow-xl'>Front End Web Dev</p>
   <ul className='pt-8'>
   <Link href='/'>
               <li className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
@@ -95,7 +108,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
   </ul>
 </div>
 <div className=' pt-4'>
-  <p className='text-center'>
+  <p className='text-center text-2xl text-green-800 font-bold p-2 lg:p-4'>
     Let's Connect 
     </p>
     <div className='flex justify-around'>
