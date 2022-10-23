@@ -1,4 +1,5 @@
-import {BsMoonFill} from 'react-icons/bs'
+import {BsGithub, BsLinkedin, BsMoonFill, BsTwitter} from 'react-icons/bs'
+import {SiGmail} from 'react-icons/si'
 import Logo from '../public/assets/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -56,42 +57,54 @@ const NavBar = ({darkmode , setDarkmode}) => {
         </div>
         </div>
         <div className='fixed top-0 left-0  w-full h-screen bg-black/70'>
-<div className='fixed top-0 left-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-white dark:bg-gray-900'>
+<div className='fixed top-0 left-0 w-[60%] sm:w-[60%] md:w-[45%] h-screen bg-white dark:bg-gray-900'>
 <div>
   <div className='flex justify-between text-black dark:text-white p-4'>
     <Image src={Logo} width='196' height='72' />
     <GiCrossedSwords  size={40} />
 
   </div>
-  <p className='dark:text-green-300 text-green-800 text-center font-bold text-3xl p-8 shadow-xl'>Front End Web Dev</p>
+  <p className='dark:text-green-300 text-green-800 text-center font-bold text-3xl  sm:p-3  shadow-xl'>Front End Web Dev</p>
   <ul className='pt-8'>
   <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
+              <li className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
                 Home
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
+              <li className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
                 Skills
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline  text-4xl font-bold py-4 text-green-800 dark:text-white'>
+              <li className=' px-3 hover:underline  text-2xl font-bold py-4 text-green-800 dark:text-white'>
                 Projects
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
+              <li className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
                 Experience
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
+              <li className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
                 Contact
               </li>
             </Link>
             
   </ul>
+</div>
+<div className=' pt-4'>
+  <p className='text-center'>
+    Let's Connect 
+    </p>
+    <div>
+      <BsLinkedin />
+      <BsGithub />
+      <BsTwitter />
+<SiGmail />
+
+    </div>
 </div>
 </div>
         </div>
