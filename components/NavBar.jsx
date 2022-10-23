@@ -98,11 +98,19 @@ const NavBar = ({darkmode , setDarkmode}) => {
   <p className='text-center'>
     Let's Connect 
     </p>
-    <div>
-      <BsLinkedin />
-      <BsGithub />
+    <div className='flex justify-around'>
+      <div className='rounded-full shadow-lg shadow-gray-400 hover:scale-105  p-3 ease-in duration-300'>
+      <BsLinkedin size={25} />
+      </div>
+      <div className='rounded-full shadow-lg shadow-gray-400 hover:scale-105  p-3 ease-in duration-300'>
+ <BsGithub />
+      </div>
+      <div className='rounded-full shadow-lg shadow-gray-400 hover:scale-105  p-3 ease-in duration-300'>
       <BsTwitter />
-<SiGmail />
+      </div>
+      <div className='rounded-full shadow-lg shadow-gray-400 hover:scale-105  p-3 ease-in duration-300'>
+      <SiGmail />
+      </div>
 
     </div>
 </div>
