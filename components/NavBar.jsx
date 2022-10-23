@@ -158,7 +158,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%] '>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/kunwarabhi7/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -167,7 +167,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/kunwarabhi7'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -175,7 +175,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
                     <BsGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                <Link href='https://www.twitter.com/kunwarabhi7'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 dark:text-white p-3 cursor-pointer hover:scale-105 ease-in duration-300'
