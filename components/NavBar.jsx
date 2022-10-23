@@ -56,37 +56,37 @@ const NavBar = ({darkmode , setDarkmode}) => {
         </div>
         </div>
         <div className='fixed top-0 left-0  w-full h-screen bg-black/70'>
-<div className='fixed top-0 left-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-900'>
+<div className='fixed top-0 left-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-white dark:bg-gray-900'>
 <div>
-  <div className='flex justify-between text-white p-4'>
+  <div className='flex justify-between text-black dark:text-white p-4'>
     <Image src={Logo} width='196' height='72' />
     <GiCrossedSwords  size={40} />
 
   </div>
-  <p className='text-green-300 text-center font-bold text-3xl   p-8'>Front End Web Dev</p>
+  <p className='dark:text-green-300 text-green-800 text-center font-bold text-3xl p-8 shadow-xl'>Front End Web Dev</p>
   <ul className='pt-8'>
   <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-white dark:text-black'>
+              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
                 Home
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-white dark:text-black'>
+              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
                 Skills
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline  text-4xl font-bold py-4 text-white dark:text-black'>
+              <li className=' px-3 hover:underline  text-4xl font-bold py-4 text-green-800 dark:text-white'>
                 Projects
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-white dark:text-black'>
+              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
                 Experience
               </li>
             </Link>
             <Link href='/'>
-              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-white dark:text-black'>
+              <li className=' px-3 hover:underline text-4xl font-bold py-4 text-green-800 dark:text-white'>
                 Contact
               </li>
             </Link>
