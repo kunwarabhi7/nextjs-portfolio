@@ -135,7 +135,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
                   Skills
                 </li>
               </Link>
-              <Link href='/projects'>
+              <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
                 Projects
                 </li>
