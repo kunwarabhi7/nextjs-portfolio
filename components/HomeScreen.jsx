@@ -14,9 +14,9 @@ const HomeScreen = () => {
      
     </div>
     
-    <div className='mx-auto mt-4 md:mt-32 w-64 md:w-96 '>
+    <div className='mx-auto mt-4 md:mt-32 w-64 md:w-96 cursor-pointer   '>
 
-    <Image className='bg-gradient-to-b z-auto from-cyan-500 to-red-300 rounded-full  ' src={Pikachu} />
+    <Image className='bg-gradient-to-b z-auto  from-cyan-500 to-red-300  rounded-full' src={Pikachu} />
     </div>
     </div>
   )

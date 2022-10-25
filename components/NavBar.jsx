@@ -39,7 +39,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
  
   return (
     <div
-      className='p-0 md:p-2  dark:bg-gray-900 shadow-lg '
+      className='p-0 md:p-2 sticky top-0 z-50 bg-white   dark:bg-gray-900 shadow-lg '
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-gray-900'>
         <Link href='/'>
