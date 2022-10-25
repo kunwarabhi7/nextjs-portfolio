@@ -3,16 +3,13 @@ import {ProjectList} from './ProjectList'
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Projects
-        </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
+    <div id='projects' className='w-full dark:bg-gray-900' >
+      <div className='max-w-[1240px] mx-auto px-2 py-16 '>
+        <h2 className='py-4 dark:text-white'>Some of my Projects:</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           {ProjectList.map((project)=>{
             return(
-                <ProjectItem title={project.title} backgroundImg={project.backgroundImg} tech={project.tech} projectUrl={project.projectUrl} />
+                <ProjectItem title={project.title} backgroundImg={project.backgroundImg} source={project.source} skill={project.skill} projectUrl={project.projectUrl} />
             )
           })}
         </div>
