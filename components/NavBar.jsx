@@ -196,6 +196,31 @@ const NavBar = ({darkmode , setDarkmode}) => {
           </div>
         </div>
       </div>
+      {/* Social Icon */}
+      <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
+        <ul>
+          <li className='w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-500 bg-gray-500'>
+          <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/kunwarabhi7/">Linkedin
+          <BsLinkedin size={35}/>
+          </a>
+</li>
+<li className='w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-500 bg-blue-400'>
+          <a className='flex justify-between items-center w-full text-gray-100' href="https://twitter.com/kunwarabhi7">Twitter
+          <BsTwitter size={35}/>
+          </a>
+</li>
+<li className='w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-500 bg-[#333333]'>
+          <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/kunwarabhi7">GitHub
+          <BsGithub size={35}/>
+          </a>
+</li>
+<li className='w-[160px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-500 bg-blue-800'>
+          <a className='flex justify-between items-center w-full text-gray-300' href="mailto:iamdevabhi@gmail.com">E-Mail
+          <SiGmail size={35}/>
+          </a>
+</li>
+        </ul>
+      </div>
     </div>
   );
 };

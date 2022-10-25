@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import HomeScreen from '../components/HomeScreen'
 import Services from '../components/Services'
 import { useState } from 'react'
+import Skills from '../components/Skills'
 export default function Home() {
   const[darkmode ,setDarkmode] = useState(false)
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <main className={darkmode? 'dark' : ''}>
      <NavBar darkmode={darkmode} setDarkmode={setDarkmode}  />
       <HomeScreen />
-  {/* <Services />  */}
+      <Skills />
       </main>
 
     </div>
