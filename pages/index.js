@@ -5,6 +5,7 @@ import HomeScreen from '../components/HomeScreen'
 import { useState } from 'react'
 import Skills from '../components/Skills'
 import Project from '../components/Projects'
+import Experience from '../components/Experience'
 export default function Home() {
   const[darkmode ,setDarkmode] = useState(false)
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <HomeScreen />
       <Skills />
       <Project />
+      <Experience />
       </main>
 
     </div>
