@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
 import HomeScreen from '../components/HomeScreen'
-import Services from '../components/Services'
+
 import { useState } from 'react'
 import Skills from '../components/Skills'
+import Project from '../components/Projects'
 export default function Home() {
   const[darkmode ,setDarkmode] = useState(false)
   return (
@@ -18,6 +19,7 @@ export default function Home() {
      <NavBar darkmode={darkmode} setDarkmode={setDarkmode}  />
       <HomeScreen />
       <Skills />
+      <Project />
       </main>
 
     </div>

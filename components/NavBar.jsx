@@ -59,13 +59,13 @@ const NavBar = ({darkmode , setDarkmode}) => {
               <Link href='/'>Home</Link>
             </li>
             <li className='px-3 hover:underline text-green-800 font-bold dark:text-white'>
-              <Link href='/#about'>About</Link>
-            </li>
-            <li className='px-3 hover:underline font-bold text-green-800 dark:text-white'>
               <Link href='/#skills'>Skills</Link>
             </li>
             <li className='px-3 hover:underline font-bold text-green-800 dark:text-white'>
               <Link href='/#projects'>Projects</Link>
+            </li>
+            <li className='px-3 hover:underline font-bold text-green-800 dark:text-white'>
+              <Link href='/#experience'>Experience</Link>
             </li>
            
             <li className='px-3 hover:underline font-bold text-green-800 dark:text-white'>
@@ -130,19 +130,19 @@ const NavBar = ({darkmode , setDarkmode}) => {
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
-                <li onClick={() => setNav(false)} className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
-                  About
-                </li>
-              </Link>
               <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
                   Skills
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/projects'>
                 <li onClick={() => setNav(false)} className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
-                  Projects
+                Projects
+                </li>
+              </Link>
+              <Link href='/#experience'>
+                <li onClick={() => setNav(false)} className=' px-3 hover:underline text-2xl font-bold py-4 text-green-800 dark:text-white'>
+                  Experience
                 </li>
               </Link>
               
