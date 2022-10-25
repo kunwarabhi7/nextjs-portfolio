@@ -14,7 +14,7 @@ export const ProjectList = [
         backgroundImg: Shop,
         skill: 'React.js , Google FIREBASE , CSS ',
         source: 'https://github.com/kunwarabhi7/shop',
-        demo : 'https://shop-devabhi7.vercel.app/'
+        projectUrl : 'https://shop-devabhi7.vercel.app/'
 
     },
     {
@@ -22,14 +22,14 @@ export const ProjectList = [
         backgroundImg: quote,
         skill: 'HTML,CSS,JavaScript',
         source: 'https://github.com/kunwarabhi7/quoteGenerator',
-        demo: 'https://abhiquotegenerator.vercel.app/'
+        projectUrl: 'https://abhiquotegenerator.vercel.app/'
     },
     {
         title: 'Video Search App',
         backgroundImg: video,
         skill: 'React.js,YouTubeAPI',
         source: 'https://github.com/kunwarabhi7/youtube',
-        demo: 'https://youtube-abhishek.vercel.app/'
+        projectUrl: 'https://youtube-abhishek.vercel.app/'
 
 
     },
@@ -38,7 +38,7 @@ export const ProjectList = [
         backgroundImg: image,
         skill: 'React.js,unSplashAPI',
         source: 'https://github.com/kunwarabhi7/imagesearch',
-        demo: 'https://pics-abhishek.vercel.app/'
+        projectUrl: 'https://pics-abhishek.vercel.app/'
     },
 
     {
@@ -46,14 +46,14 @@ export const ProjectList = [
         backgroundImg: foodieapp,
         skill: 'React.js, FIREBASE,CSS ',
         source: 'https://github.com/kunwarabhi7/resturentapp/',
-        demo: " https://myfoodieapp.vercel.app/"
+        projectUrl: "https://myfoodieapp.vercel.app/"
     },
     {
         title: 'Blog App',
         backgroundImg: blog,
         skill: 'React.js, FIREBASE,CSS ',
         source: 'https://github.com/kunwarabhi7/blog',
-        demo: " https://abhi7blog.vercel.app/"
+        projectUrl: "https://abhi7blog.vercel.app/"
     },
 
 ]
