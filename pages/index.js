@@ -6,6 +6,7 @@ import { useState } from 'react'
 import Skills from '../components/Skills'
 import Project from '../components/Projects'
 import Experience from '../components/Experience'
+import Contact from '../components/Contact'
 export default function Home() {
   const[darkmode ,setDarkmode] = useState(false)
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Skills />
       <Project />
       <Experience />
+      <Contact />
       </main>
 
     </div>
