@@ -6,8 +6,9 @@ const TypewriterEffect = () => {
     <Typewriter
       options={{
         strings: [
-          "React Developer",
           "Learner",
+          "React Developer",
+          'NextJS Devloper',
           "Open Source Contributor",
         ],
         autoStart: true,
