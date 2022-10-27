@@ -9,7 +9,7 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           {ProjectList.map((project)=>{
             return(
-                <ProjectItem title={project.title} backgroundImg={project.backgroundImg} source={project.source} skill={project.skill} projectUrl={project.projectUrl} />
+                <ProjectItem key={project.id} title={project.title} backgroundImg={project.backgroundImg} source={project.source} skill={project.skill} projectUrl={project.projectUrl} />
             )
           })}
         </div>
