@@ -12,7 +12,7 @@ const HomeScreen = () => {
           Abhishek Singh
         </h1>
         <p className='text-blue-600 text-2xl sm:text-4xl py-4'>and i am a</p>
-<h1 className='text-4xl sm:text-7xl font-bold dark:text-yellow-400 text-yellow-700'><TypewriterEffect /></h1>
+<h1 className='text-4xl sm:text-7xl font-bold dark:text-yellow-400 text-yellow-500'><TypewriterEffect /></h1>
         
      
     </div>

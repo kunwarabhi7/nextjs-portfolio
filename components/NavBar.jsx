@@ -105,7 +105,7 @@ const NavBar = ({darkmode , setDarkmode}) => {
                   <Image
                     src={Logo}
                     width='187'
-                    height='85'
+                    height='132'
                     alt='/'
                   />
                 </a>
