@@ -183,14 +183,14 @@ const NavBar = ({darkmode , setDarkmode}) => {
                     <BsTwitter />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <a href="mailto:iamdevabhi@gmail.com">
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 dark:text-white p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <SiGmail />
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
