@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import Pikachu from '../public/Pikachu.png'
+import Hero from '../public/assets/dev.gif'
+
 import TypewriterEffect from './Type'
 const HomeScreen = () => {
   return (
@@ -19,7 +20,7 @@ const HomeScreen = () => {
     
     <div className='mx-auto mt-4 md:mt-32 w-64 md:w-96 cursor-pointer   '>
 
-    <Image className='bg-gradient-to-b z-auto  from-cyan-500 to-red-300 dark:from-black dark:to-red-500  rounded-full' src={Pikachu} />
+    <Image className='bg-gradient-to-b z-auto  from-cyan-500 to-red-300 dark:from-black dark:to-red-500  rounded-full ' src={Hero} />
     </div>
     </div>
   )
