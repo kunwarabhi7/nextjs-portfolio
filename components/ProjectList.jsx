@@ -4,8 +4,8 @@ import image from '../public/assets/imagesearch.jpg';
 import video from '../public/assets/videosearch.jpg'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
-
-
+import youtubev2 from '../public/assets/youtubev2.png'
+ 
 
 
 export const ProjectList = [
@@ -54,6 +54,13 @@ export const ProjectList = [
         skill: 'React.js, FIREBASE,CSS ',
         source: 'https://github.com/kunwarabhi7/blog',
         projectUrl: "https://abhi7blog.vercel.app/"
+    },
+    {
+        title: 'YouTube Clone App',
+        backgroundImg: youtubev2,
+        skill: 'NextJS, RapidAPI,TailwindCSS ',
+        source: 'https://github.com/kunwarabhi7/YouTubeV2',
+        projectUrl: "https://youtubev2.vercel.app/"
     },
 
 ]

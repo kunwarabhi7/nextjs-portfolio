@@ -20,7 +20,7 @@ const HomeScreen = () => {
     
     <div className='mx-auto mt-4 md:mt-32 w-64 md:w-96 cursor-pointer   '>
 
-    <Image className='bg-gradient-to-b z-auto  from-cyan-500 to-red-300 dark:from-black dark:to-red-500  rounded-full ' src={Hero} />
+    <Image className='bg-gradient-to-b z-auto   from-cyan-500 to-red-300 dark:from-black dark:to-red-500  rounded-full ' src={Hero} />
     </div>
     </div>
   )
