@@ -4,7 +4,7 @@ import image from '../public/assets/imagesearch.jpg';
 import video from '../public/assets/videosearch.jpg'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
-import youtubev2 from '../public/assets/YouTubeV2.png'
+import youtubev2 from '../public/assets/youtubev2.png'
  
 
 
