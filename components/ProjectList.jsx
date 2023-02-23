@@ -8,6 +8,7 @@ import blog from '../public/assets/blog.jpg'
 import chat from '../public/assets/Chat.png' 
 // import yt from '../public/assets/youtubeV2.png'
 import uber from '../public/assets/uber.png'
+import Todo from '../public/assets/Todo.png'
 
 export const ProjectList = [
     {
@@ -78,6 +79,13 @@ export const ProjectList = [
         skill: 'React.js, TailwindCSS ',
         source: 'https://github.com/kunwarabhi7/ubereat',
         projectUrl: "https://ubereat.vercel.app/"
+    },
+    {
+        title: 'Todo App',
+        backgroundImg: Todo,
+        skill: 'NEXTJS, TailwindCSS,Google Firebase ',
+        source: 'https://github.com/kunwarabhi7/todoNextjs',
+        projectUrl: "https://abhitodo.vercel.app/"
     },
     // {
     //     title: 'YouTube Clone App',
