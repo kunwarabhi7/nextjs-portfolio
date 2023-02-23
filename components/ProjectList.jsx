@@ -6,8 +6,8 @@ import cab from '../public/assets/cab.png'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
 import chat from '../public/assets/Chat.png' 
-import yt from '../public/assets/youtubeV2.png'
-
+// import yt from '../public/assets/youtubeV2.png'
+import uber from '../public/assets/uber.png'
 
 export const ProjectList = [
     {
@@ -73,11 +73,19 @@ export const ProjectList = [
         projectUrl: "https://abhi7blog.vercel.app/"
     },
     {
-        title: 'YouTube Clone App',
-        backgroundImg: yt2,
-        skill: 'NextJS, RapidAPI,TailwindCSS ',
-        source: 'https://github.com/kunwarabhi7/YouTubeV2',
-        projectUrl: "https://youtubev2.vercel.app/"
+        title: 'Uber Eats Clone',
+        backgroundImg: uber,
+        skill: 'React.js, TailwindCSS ',
+        source: 'https://github.com/kunwarabhi7/ubereat',
+        projectUrl: "https://ubereat.vercel.app/"
     },
+    // {
+    //     title: 'YouTube Clone App',
+    //     backgroundImg: yt2,
+    //     skill: 'NextJS, RapidAPI,TailwindCSS ',
+    //     source: 'https://github.com/kunwarabhi7/YouTubeV2',
+    //     projectUrl: "https://youtubev2.vercel.app/"
+    // },
+
 
 ]
