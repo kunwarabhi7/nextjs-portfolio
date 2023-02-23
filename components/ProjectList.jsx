@@ -6,7 +6,7 @@ import cab from '../public/assets/cab.png'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
 import chat from '../public/assets/Chat.png' 
-import yt2 from '../public/assets/youtubeV2.png'
+// import yt2 from '../public/assets/youtubeV2.png'
 
 
 export const ProjectList = [
@@ -72,12 +72,12 @@ export const ProjectList = [
         source: 'https://github.com/kunwarabhi7/blog',
         projectUrl: "https://abhi7blog.vercel.app/"
     },
-    {
-        title: 'YouTube Clone App',
-        backgroundImg: yt2,
-        skill: 'NextJS, RapidAPI,TailwindCSS ',
-        source: 'https://github.com/kunwarabhi7/YouTubeV2',
-        projectUrl: "https://youtubev2.vercel.app/"
-    },
+    // {
+    //     title: 'YouTube Clone App',
+    //     backgroundImg: yt2,
+    //     skill: 'NextJS, RapidAPI,TailwindCSS ',
+    //     source: 'https://github.com/kunwarabhi7/YouTubeV2',
+    //     projectUrl: "https://youtubev2.vercel.app/"
+    // },
 
 ]
