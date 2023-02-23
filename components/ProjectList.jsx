@@ -5,18 +5,10 @@ import video from '../public/assets/videosearch.jpg'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
 import youtubev2 from '../public/assets/youtubev2.png'
- import blogV2 from '../public/assets/blogV2.png'
+ 
 
 
 export const ProjectList = [
-    {
-        title: 'NextJS Blog',
-        backgroundImg: blogV2,
-        skill: 'NextJS , Google FIREBASE ,TailwindCSS ',
-        source: 'https://github.com/kunwarabhi7/blogNextJS',
-        projectUrl : 'https://meabhishekblog.vercel.app/'
-
-    },
     {
         title: 'ECommerce Website',
         backgroundImg: Shop,
