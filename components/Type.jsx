@@ -3,19 +3,23 @@ import Typewriter from "typewriter-effect";
 
 const TypewriterEffect = () => {
   return (
-    <Typewriter
+    <div className='md:ml-16'>
+
+
+    <Typewriter 
       options={{
         strings: [
           "Learner",
           "React Developer",
-          'NextJS Devloper',
+          'NextJS Developer',
           "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
       }}
-    />
+      />
+      </div>
   );
 }
 
