@@ -5,8 +5,8 @@ import video from '../public/assets/videosearch.jpg'
 import cab from '../public/assets/cab.png'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
-import youtubev2 from '../public/assets/youtubeV2.png'
 import chat from '../public/assets/Chat.png' 
+import yt2 from '../public/assets/youtubeV2.png'
 
 
 export const ProjectList = [
@@ -74,7 +74,7 @@ export const ProjectList = [
     },
     {
         title: 'YouTube Clone App',
-        backgroundImg: youtubev2,
+        backgroundImg: yt2,
         skill: 'NextJS, RapidAPI,TailwindCSS ',
         source: 'https://github.com/kunwarabhi7/YouTubeV2',
         projectUrl: "https://youtubev2.vercel.app/"

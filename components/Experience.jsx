@@ -9,7 +9,7 @@ import {
 
 const Experience = () => {
   return (
-    <div name='experience' className='w-full h-full mt-2 dark:bg-gray-900 dark:text-green-800 text-gray-300 md:px-20'>
+    <div name='experience' className='w-full h-full  dark:bg-gray-900 dark:text-green-800 text-gray-300 md:px-20'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div className='pb-8'>
         <h1 className='text-4xl font-bold inline border-b-4 text-green-800 dark:text-white border-blue-300'>
