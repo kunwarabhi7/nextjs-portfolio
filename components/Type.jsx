@@ -3,9 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const TypewriterEffect = () => {
   return (
-    <div className='md:ml-16'>
-
-
+    
     <Typewriter 
       options={{
         strings: [
@@ -19,7 +17,6 @@ const TypewriterEffect = () => {
         deleteSpeed: 50,
       }}
       />
-      </div>
   );
 }
 
