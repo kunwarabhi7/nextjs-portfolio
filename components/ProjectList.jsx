@@ -2,6 +2,7 @@ import Shop from '../public/assets/shop.jpg'
 import quote from '../public/assets/quote.jpg';
 import image from '../public/assets/imagesearch.jpg';
 import video from '../public/assets/videosearch.jpg'
+import cab from '../public/assets/cab.png'
 import foodieapp from '../public/assets/foodie.jpg'
 import blog from '../public/assets/blog.jpg'
 import youtubev2 from '../public/assets/youtubev2.png'
@@ -9,6 +10,22 @@ import youtubev2 from '../public/assets/youtubev2.png'
 
 
 export const ProjectList = [
+    {
+        title: 'NEXTJS BLOG',
+        backgroundImg: cab,
+        skill: 'React.js , Google FIREBASE , CSS ',
+        source: 'https://github.com/kunwarabhi7/shop',
+        projectUrl : 'https://shop-devabhi7.vercel.app/'
+
+    },
+    {
+        title: 'ECommerce Website',
+        backgroundImg: Shop,
+        skill: 'React.js , Google FIREBASE , CSS ',
+        source: 'https://github.com/kunwarabhi7/shop',
+        projectUrl : 'https://shop-devabhi7.vercel.app/'
+
+    },
     {
         title: 'ECommerce Website',
         backgroundImg: Shop,
