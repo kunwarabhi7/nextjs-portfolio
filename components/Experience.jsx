@@ -30,7 +30,7 @@ const Experience = () => {
           <h3 className="verticial-timeline-element-title  ">
             The Technological Institute of Textile and Sciences
           </h3>
-          <p>B.Tech Degree</p>
+          <p>B.Tech (IT)</p>
         </VerticalTimelineElement>
     
         <VerticalTimelineElement
