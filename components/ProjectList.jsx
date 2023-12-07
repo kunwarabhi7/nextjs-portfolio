@@ -15,7 +15,7 @@ export const ProjectList = [
   {
     title: "Dropbox CLONE",
     backgroundImg: dropbox,
-    skill: "NEXT14 , Google FIREBASE,TailwindCSS ,shadcn,Clerk ",
+    skill: "NEXT14 , Google FIREBASE,TailwindCSS ,ShadCn,ClerkAUTH ",
     source: "https://github.com/kunwarabhi7/dropbox",
     projectUrl: "https://dropboxclonee.vercel.app/",
   },
