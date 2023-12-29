@@ -179,14 +179,6 @@ const NavBar = ({ darkmode, setDarkmode }) => {
                     <SiGmail />
                   </div>
                 </a>
-                <a href="mailto:iamdevabhi@gmail.com">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 dark:text-white p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <SiGmail />
-                  </div>
-                </a>
               </div>
             </div>
           </div>
